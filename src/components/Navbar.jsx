@@ -17,18 +17,18 @@ const Navbar = () => {
       name: "About",
       route: "about",
     },
-    {
-      name: "Services",
-      route: "services",
-    },
+    // {
+    //   name: "Services",
+    //   route: "services",
+    // },
     {
       name: "Projects",
       route: "projects",
     },
-    {
-      name: "Contact",
-      route: "contact",
-    },
+    // {
+    //   name: "Contact",
+    //   route: "contact",
+    // },
   ];
 
   function toggleTheme() {
