@@ -57,6 +57,7 @@ const Home = () => {
                 <a
                   href={el.link}
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
+                  target="_blank"
                 >
                   <img alt="" src={el.url} />
                   {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
@@ -65,9 +66,14 @@ const Home = () => {
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+              <a
+                  href="https://drive.google.com/file/d/1rl6IUKM086m0LWUwn02a53L4xRKY09Z3/view"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Resume
-                </Link>
+                </a>
               </div>
             </div>
           </div>

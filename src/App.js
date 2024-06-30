@@ -23,9 +23,9 @@ function App() {
             <Navbar />
             <Home />
             <About />
-            <Services />
+            {/* <Services /> */}
             <Projects />
-            <Contact />
+            {/* <Contact /> */}
           </div>
 
         ) : (
